@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import global from '../global.css'
+    import Fields from "../components/Fields.svelte";
+
+    let fields = ['Programming Languages', 'Frameworks and Tools', 'App development', 'Courses']
+</script>
+
+<main>
+    <Fields {fields}/>
+</main>
