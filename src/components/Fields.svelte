@@ -1,13 +1,13 @@
 <script>
     import Field from "./Field.svelte";
     import Navbar from "./Navbar.svelte";
+    import Welcome from "./Welcome.svelte";
     export let fields
 </script>
 
 <Navbar />
 
-<h1>Welcome to my website.😊</h1>
-<h1>So glad to have you!💛</h1>
+<Welcome />
 
 {#each fields as field }
     <Field {field}/>
