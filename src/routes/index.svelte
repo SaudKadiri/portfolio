@@ -2,7 +2,6 @@
     import global from '../global.css'
     import Fields from "../components/Fields.svelte";
 
-    // let fields = ['Programming Languages', 'Frameworks and Tools', 'App development', 'Courses']
     let fields = [
         {
             title: 'About Me',
@@ -34,7 +33,11 @@
         },
         {
             title: 'This Webiste',
-            description: ''
+            description: 'Even if I\'m not a professional Web Developer, I\'m a true Computer Engineer. So I decided to make this website for my love i.e. Computer Science\
+            I know there are lakhs of better portfolios than mine; still I\'m truly glad to have made it by my own... I could have had a simple HTML page itself... but I care for UI. \
+            I initially decided to make the Portfolio using Plain HTML, CSS, JS but it bored me. Then I decided to use Django, but it just never went forward, then came React; \
+            which I felt was unnecessarily complex, so I ended up using SvelteKit. This project is made using SvelteKit and hosted on Google Cloud (for free). \
+            The source code for this website is open-source and is available on my github(like most of my projects).'
         }
     ]
 </script>

@@ -15,5 +15,7 @@
 
     .card:hover {
       box-shadow: 0 0 24px lavender;
+      background-color: black;
+      color: white;
     }
   </style>
