@@ -6,6 +6,8 @@
     let src = "src/routes/saud-dnyandeep.jpg"
 </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <Card>
     <h3>{field.title}</h3>
     {#if field.title === 'About Me'}
@@ -14,5 +16,5 @@
         <Skills />
     {/if}
     <br>
-    <p><em>{field.description}</em></p>
+    <p>{@html field.description}</p>
 </Card>
