@@ -8,7 +8,7 @@
             description: 'Hey, I\'m <b class="saud">Saud</b>. I\'m a Computer Engineer and I do System programming. I\'m also highly skilled in the field of AI. \
             I have practiced Data Structures and Algorithms throughly. I\'m interested in Computer Architectures(ARM), Extended Reality(XR), and some low-level computer things. \
             I prefer using Unix-based Operating Systems; currently using Apple macOS(Darwin) and have experienced Ubuntu(Debian), WSL and Fedora in the past. \
-            Other than computer science I love Philosophy, Nature and my introvert personality. I also like to maintain a personal diary.',
+            Other than computer science I love Philosophy, Nature and my introvert personality. I want to change to change the world for better! I also like to maintain a personal diary.',
         }, 
         {
             title: 'Skills',
@@ -19,12 +19,13 @@
         {
             title: 'Projects',
             description: 'I love doing projects and I always give 100% to my team. I like to put my team first and than myself. \
-            I\'ve been experienced of both Project leader and lead software developer throughout the projects.'
+            I\'ve been experienced of both Project leader and lead software developer throughout the projects.\
+            All these projects are available on my Github.'
         }, 
         {
             title: 'Education',
             description: 'I believe that Computer Education is gained more by the SEEKER (self-lerner, i.e. Online) than the COLLEGE-ATTENDER. \
-            I gained most of my knowlege gained by reading books/documentation, watching Coursera/edX/YouTube/Conferences, and then College. \
+            I gained most of my knowlege by reading books/documentation, watching Coursera/edX/YouTube/Conferences, and then College. \
             Above I\'ve listed some of the books/courses that helped me a lot.'
         },
         {
@@ -41,7 +42,7 @@
             which I felt was unnecessarily complex, so I ended up using SvelteKit. \
             This project is made using SvelteKit and hosted on Google Cloud (for free). \
             The source code for this website is open-source and is available on my \
-            <a href="https://github.com/saudkadiri/portfolio">github</a>(like most of my projects).'
+            <a href="https://github.com/saudkadiri/portfolio">github</a>.'
         }
     ]
 </script>

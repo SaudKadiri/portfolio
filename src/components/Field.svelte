@@ -2,6 +2,8 @@
     import Card from "./Card.svelte";
     import About from "./About.svelte";
     import Skills from "./Skills.svelte";
+    import Projects from "./Projects.svelte";
+import Education from "./Education.svelte";
     export let field
     let src = "src/routes/saud-dnyandeep.jpg"
 </script>
@@ -14,6 +16,10 @@
         <About {src}/>
     {:else if field.title === 'Skills'}
         <Skills />
+    {:else if field.title === 'Projects'}
+        <Projects />
+    {:else if field.title === 'Education'}
+        <Education />
     {/if}
     <br>
     <p>{@html field.description}</p>
