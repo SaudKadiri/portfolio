@@ -1,0 +1,1 @@
+<p>Mail <i class="fa fa-envelope" aria-hidden="true">:</i>&nbsp&nbsp&nbsp<a href="mailto:saudkadiri@gmail.com"> saudkadiri@gmail.com</a></p>
