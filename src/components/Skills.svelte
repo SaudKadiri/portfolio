@@ -35,6 +35,7 @@
 
 <br>
 <b>Programming Languages</b>
+<br>
 <div id="barchart_values"></div>
 
 

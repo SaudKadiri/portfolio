@@ -1,6 +1,6 @@
 <div class="typewriter">
-    <h1>Welcome to my website.😊</h1>
-    <h1>So glad to have you!💛</h1>
+    <h1 style="color:crimson;">Welcome to my website.😊</h1>
+    <h1 style="color:cornflowerblue">So glad to have you!💛</h1>
 </div>
 
 <style>
