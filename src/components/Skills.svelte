@@ -10,6 +10,7 @@
                 ["C/C++", 90, "#044F88"],
                 ["Swift", 95, "#F05138"],
                 ["Python", 97, "saffron"],
+                ["JavaScript", 85, "yellow"],
                 ["ARM ASM", 80, "grey"]
             ]);
         

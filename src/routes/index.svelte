@@ -5,10 +5,13 @@
     let fields = [
         {
             title: 'About Me',
-            description: 'Hey, I\'m <b class="saud">Saud</b>. I\'m a Computer Engineer and I do System programming. I\'m also highly skilled in the field of AI. \
-            I have practiced Data Structures and Algorithms throughly. I\'m interested in Computer Architectures(ARM), Extended Reality(XR), and some low-level computer things. \
-            I prefer using Unix-based Operating Systems; currently using Apple macOS(Darwin) and have experienced Ubuntu(Debian), WSL and Fedora in the past. \
-            Other than computer science I love Philosophy, Nature and my introvert personality. I want to change to change the world for better! I also like to maintain a personal diary.',
+            description: 'Hey, I\'m <b>Saud Kadiri</b>.\
+            I\'m a Computer Engineer specialized in the Field of Artificial Intelligence. \
+            I have practiced DSA(Data structures & Algorithms) and related mathematics throughly.\
+            In terms of Operating System choice; I prefer using Unix-based OSs; currently using Apple macOS(Darwin) \
+            while my previous being Ubuntu(Debian) and WSL2.\
+            Other than computer science I love Philosophy, Nature and my introvert personality.\
+            I also like to maintain a personal diary.',
         }, 
         {
             title: 'Skills',
@@ -46,8 +49,6 @@
         }
     ]
 </script>
-
-
 
 <main class="container">
     <Fields {fields}/>

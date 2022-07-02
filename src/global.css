@@ -9,15 +9,17 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #272727;
-  background-image: linear-gradient(to left top, #ff0000, #e9005b, #ac1688, #5b3c90, #003f74, #01355c, #0a2b44, #11212e, #161924, #161219, #0f090e, #000000);
-  
-  background-image: linear-gradient(to left bottom, #ff0000, #e9005b, #ac1688, #5b3c90, #003f74, #01355c, #0a2b44, #11212e, #161924, #161219, #0f090e, #000000);
-
-  background-image: linear-gradient(to left bottom, #bc00ff, #7244ec, #274fcc, #004ca2, #004373, #06385b, #0d2c44, #11212e, #161924, #161219, #0f090e, #000000);
-
   background-image: linear-gradient(to left top, #bc00ff, #7244ec, #274fcc, #004ca2, #004373, #06385b, #0d2c44, #11212e, #161924, #161219, #0f090e, #000000);
-  
   line-height: 1.6;
+
+
+
+
+
+
+
+
+  
 }
 
 ul {

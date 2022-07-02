@@ -24,6 +24,5 @@
     {:else if field.title === 'Contact Me'}
         <Contact />
     {/if}
-    <br>
     <p>{@html field.description}</p>
 </Card>
