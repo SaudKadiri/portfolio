@@ -27,11 +27,6 @@
 <b>Programming Languages</b>
 <br>
 <canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
-<style>
-    p {
-        color: grey;
-    }
-</style>
 
 <ul style="display: flex; justify-content: space-between;">
     <li><b>Frameworks and Tools</b>
