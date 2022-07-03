@@ -1,5 +1,5 @@
 <script>
-    export let src
+    let src = "src/routes/saud-dnyandeep.jpg"
 </script>
 <style>
     img {
@@ -44,10 +44,9 @@
         text-align: center;
     }
 </style>
-
 <div class="container">
     <img {src} alt="Saud's selfie at his favorite place-Dnyandeep College." height="250px"/>
     <div class="overlay">
-        <p class="text" style="font-size:2.1vw">This is my last selfie from my favorite place- Dnyandeep School. A place that lasts forever in my heart.</p>
+        <p class="text" style="font-size:2.1vmin">This is my last selfie from my favorite place- Dnyandeep School. A place that lasts forever in my heart.</p>
     </div>
 </div>

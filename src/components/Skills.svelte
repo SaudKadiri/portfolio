@@ -15,13 +15,17 @@
             ]
             },
             options: {
-                color: '#fff',
-            categorySpacing: 500,
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
             }
         });
-        // Chart.defaults.global.defaultFontColor = "white";
-        Chart.defaults.gloabal.ho
     </script>
+
 </body>
 <br>
 <b>Programming Languages</b>
@@ -81,5 +85,3 @@
     </li>
 </ul>
 <br>
-
-

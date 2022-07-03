@@ -19,11 +19,17 @@ ul {
 
 .container {
   max-width: 768px;
-  margin: 100px auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
   padding: 0 20px;
 }
 
 a {
   font-weight: bold;
   color:palevioletred;
+}
+
+html {
+  scroll-behavior: smooth;
 }
