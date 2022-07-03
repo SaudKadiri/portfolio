@@ -1,44 +1,37 @@
-<head>
-    <!--Load the AJAX API-->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-        google.charts.load("current", {packages:["corechart"]});
-        google.charts.setOnLoadCallback(drawChart);
-        function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-                ["Language", "Knowledge", { role: "style" } ],
-                ["C/C++", 90, "#044F88"],
-                ["Swift", 95, "#F05138"],
-                ["Python", 97, "saffron"],
-                ["JavaScript", 85, "yellow"],
-                ["ARM ASM", 80, "grey"]
-            ]);
-        
-            var view = new google.visualization.DataView(data);
-            view.setColumns([0, 1,
-                            { calc: "stringify",
-                                sourceColumn: 1,
-                                type: "string",
-                                role: "annotation" },
-                            2]);
-        
-            var options = {
-                width: 600,
-                height: 400,
-                bar: {groupWidth: "95%"},
-                legend: { position: "none" },
-            };
-            var chart = new google.visualization.BarChart(document.getElementById("barchart_values"));
-            chart.draw(view, options);
-        }
-    </script>
-</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
+    <script>
+        new Chart(document.getElementById("bar-chart-horizontal"), {
+            type: 'horizontalBar',
+            data: {
+            labels: ["ARM ASM", "C/C++", "Python3", "JavaScript", "Swift"],
+            datasets: [
+                {
+                    label: "Relative knowledge",
+                    backgroundColor: ["darkgray", "#225398","#46709E","yellow","#f05138"],
+                    data: [80,90,97,84,95]
+                }
+            ]
+            },
+            options: {
+                color: '#fff',
+            categorySpacing: 500,
+            }
+        });
+        // Chart.defaults.global.defaultFontColor = "white";
+        Chart.defaults.gloabal.ho
+    </script>
+</body>
 <br>
 <b>Programming Languages</b>
 <br>
-<div id="barchart_values"></div>
-
+<canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
+<style>
+    p {
+        color: grey;
+    }
+</style>
 
 <ul style="display: flex; justify-content: space-between;">
     <li><b>Frameworks and Tools</b>
