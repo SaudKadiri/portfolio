@@ -28,7 +28,7 @@
         {
             title: 'Education',
             description: 'I believe that Computer Education is gained more by the SEEKER (self-lerner, i.e. Online) than the COLLEGE-ATTENDER. \
-            I gained most of my knowlege by reading books/documentation, watching Coursera/edX/YouTube/Conferences, and then College. \
+            I gained most of my knowlege by reading books/documentation, watching Coursera/edX/YouTube ore even Conferences, and then College. \
             Above I\'ve listed some of the books/courses that helped me a lot.'
         },
         {

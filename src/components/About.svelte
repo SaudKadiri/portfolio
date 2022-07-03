@@ -5,6 +5,7 @@
     img {
         border-radius: 10px;
         width: 100%;
+        height: 100%;
     }
     .container {
         margin: auto;
@@ -47,6 +48,6 @@
 <div class="container">
     <img {src} alt="Saud's selfie at his favorite place-Dnyandeep College." height="250px"/>
     <div class="overlay">
-        <p class="text">This is my last selfie from my favorite place- Dnyandeep School. A place that lasts forever in my heart.</p>
+        <p class="text" style="font-size:2.1vw">This is my last selfie from my favorite place- Dnyandeep School. A place that lasts forever in my heart.</p>
     </div>
 </div>
