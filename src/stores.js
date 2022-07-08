@@ -1,6 +1,6 @@
-import { writable } from "svelte/store";
+import { readable } from "svelte/store";
 
-export const FieldStore = writable([
+export const FieldStore = readable([
     {
         id: 'about',
         title: 'About Me',
