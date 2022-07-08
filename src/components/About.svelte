@@ -1,5 +1,6 @@
 <script>
-    let src = "src/routes/saud-dnyandeep.jpg"
+    let src = "src/routes/saud-1.jpeg"
+    let src2 = "src/routes/saud-dnyandeep.jpg"
 </script>
 <style>
     img {
@@ -45,8 +46,16 @@
     }
 </style>
 <div class="container">
-    <img {src} alt="Saud's selfie at his favorite place-Dnyandeep College." height="250px"/>
+    <picture>
+        <source 
+           media="(orientation: landscape)"
+           srcset={src2}>
+        <source 
+           media="(orientation: portrait)"
+           srcset={src}>   
+        <img src={src} alt="Saud's selfie at his favorite place-Dnyandeep College." height="250px" />
+    </picture>
     <div class="overlay">
-        <p class="text" style="font-size:2.1vmin">This is my last selfie from my favorite place- Dnyandeep School. A place that lasts forever in my heart.</p>
+        <p class="text" style="font-size:2.1vmin">This is a selfie from my last visit to my favorite place- Dnyandeep School. A place that lasts forever in my heart.</p>
     </div>
 </div>

@@ -5,7 +5,7 @@
 <body>
     <nav class="navbar">
       <!-- LOGO -->
-      <div class="logo">SAUD KADIRI</div>
+      <div class="logo">saud kadiri</div>
       <!-- NAVIGATION MENU -->
       <ul class="nav-links">
         <!-- USING CHECKBOX HACK -->
@@ -22,6 +22,8 @@
 </body>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
     body>nav {
         font-family: cursive;
     }
@@ -45,11 +47,16 @@
         font-weight: bolder;
         color: white;
     }
+    a:hover {
+        color: lavender;
+    }
     /* LOGO */
     .logo {
-        color:gold;
-        font-size: 24px;
+        color:royalblue;
+        text-shadow: 1px 1px khaki;
+        font-size: 34px;
         font-weight: 900;
+        font-family: 'Splash', cursive;
     }
     /* NAVBAR MENU */
     .menu {
@@ -58,8 +65,9 @@
         font-size: 1.5vmax;
     }
     .menu li:hover {
-        color:black;
-        background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        box-shadow: 1px 1px lavender;
+        background-color:#0b1a32;
+        background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
         border-radius: 5px;
         transition: 0.3s ease;
     }
@@ -82,9 +90,6 @@
     @media (max-width: 768px) {
         .menu { 
             display:none;
-            position:calc(5);
-            background-image: none;
-            /* linear-gradient(to left top, #780044, #5b1247, #3f1842, #261836, #151425, #121424, #0f1323, #0c1321, #0b1a32, #082144, #042856, #002e69); */
             right: 0;
             left: 0;
             text-align: center;
